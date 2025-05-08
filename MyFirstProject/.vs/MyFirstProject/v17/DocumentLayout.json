@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\",
+  "WorkspaceRootPath": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MyFirstProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MyFirstProject\\MyFirstProject\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyFirstProject\\MyFirstProject\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06D4EDB6-D22C-4260-A64B-8ECF619BCD53}|MyFirstProject\\MyFirstProject.csproj|d:\\dib-borah\\code\\phase2\\c#\\c-gettingstarted\\myfirstproject\\myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06D4EDB6-D22C-4260-A64B-8ECF619BCD53}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,12 +21,12 @@
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MyFirstProject\\MyFirstProject\\Program.cs",
-              "RelativeDocumentMoniker": "MyFirstProject\\MyFirstProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Program.cs",
               "ToolTip": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MyFirstProject\\MyFirstProject\\Program.cs",
-              "RelativeToolTip": "MyFirstProject\\MyFirstProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "MyFirstProject\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAqwEcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T13:57:04.005Z",
+              "WhenOpened": "2025-04-24T11:20:46.89Z",
               "EditorCaption": ""
             }
           ]

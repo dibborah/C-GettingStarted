@@ -1,0 +1,15 @@
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\bin\Debug\net9.0\TempApp.exe
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\bin\Debug\net9.0\TempApp.deps.json
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\bin\Debug\net9.0\TempApp.runtimeconfig.json
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\bin\Debug\net9.0\TempApp.dll
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\bin\Debug\net9.0\TempApp.pdb
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\TempApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\TempApp.AssemblyInfoInputs.cache
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\TempApp.AssemblyInfo.cs
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\TempApp.csproj.CoreCompileInputs.cache
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\TempApp.sourcelink.json
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\TempApp.dll
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\refint\TempApp.dll
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\TempApp.pdb
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\TempApp.genruntimeconfig.cache
+D:\Dib-Borah\Code\Phase2\C#\C-GettingStarted\MySecondProject\TempApp\obj\Debug\net9.0\ref\TempApp.dll
