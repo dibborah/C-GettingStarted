@@ -115,23 +115,48 @@
 
 
 
-using System;
+// using System;
 
-namespace Giraffe
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            SayHi("Mike", 23);
-            SayHi("John", 45);
-            SayHi("Tom", 67);
-            Console.ReadLine();
-        }
+// namespace Giraffe
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             SayHi("Mike", 23);
+//             SayHi("John", 45);
+//             SayHi("Tom", 67);
+//             Console.ReadLine();
+//         }
 
-        static void SayHi(string name, int age)
-        {
-            Console.WriteLine("Hello user " + name + " You are " + age);
-        }
-    }
-}
+//         static void SayHi(string name, int age)
+//         {
+//             Console.WriteLine("Hello user " + name + " You are " + age);
+//         }
+//     }
+// }
+
+
+
+// Return statements
+// using System;
+
+// namespace Giraffe
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             int cubeNumber = cube(5);
+//             Console.WriteLine(cubeNumber);
+//             Console.WriteLine("Hello");
+//             Console.ReadLine();
+//         }
+
+//         static int cube(int num)
+//         {
+//             int result = num * num * num;
+//             return result;
+//         }
+//     }
+// }

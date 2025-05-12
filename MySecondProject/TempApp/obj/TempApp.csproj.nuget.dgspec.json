@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\TempApp\\TempApp.csproj": {}
+    "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\tempapp\\TempApp.csproj": {}
   },
   "projects": {
-    "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\TempApp\\TempApp.csproj": {
+    "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\tempapp\\TempApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\TempApp\\TempApp.csproj",
+        "projectUniqueName": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\tempapp\\TempApp.csproj",
         "projectName": "TempApp",
-        "projectPath": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\TempApp\\TempApp.csproj",
+        "projectPath": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\tempapp\\TempApp.csproj",
         "packagesPath": "C:\\Users\\dibya.borah\\.nuget\\packages\\",
-        "outputPath": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\TempApp\\obj\\",
+        "outputPath": "D:\\Dib-Borah\\Code\\Phase2\\C#\\C-GettingStarted\\MySecondProject\\tempapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
