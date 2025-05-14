@@ -138,7 +138,7 @@
 
 
 
-// Return statements
+// Learning Return statements
 // using System;
 
 // namespace Giraffe
@@ -160,3 +160,158 @@
 //         }
 //     }
 // }
+
+
+// Learning If statements
+
+// using System;
+// using System.ComponentModel;
+// using System.Runtime.CompilerServices;
+
+// namespace Giraffe
+// {
+//     class Program
+//     {
+//         // static void Main(string[] args)
+//         // {
+//         //     bool isMale = true;
+//         //     bool isTall = false;
+
+//         //     if(isMale && isTall)
+//         //     {
+//         //         Console.WriteLine("You are a tall Male");
+//         //     } else if(isMale && !isTall)
+//         //     {
+//         //         Console.WriteLine("You are Male but not tall");
+//         //     } else
+//         //     {
+//         //         Console.WriteLine("You are not male and also not tall");
+//         //     }
+
+//         //     Console.ReadLine();
+//         // }
+
+//         // static void Main(string[] args)
+//         // {
+//         //     Console.WriteLine(GetMax(50, 40, 20));
+//         //     Console.ReadLine();
+//         // }
+
+//         // static int GetMax(int num1, int num2, int num3)
+//         // {
+//         //     int result;
+//         //     if(num1 > num2 && num1 > num3)
+//         //     {
+//         //         result = num1;
+//         //     }
+//         //     else if(num2 > num1 && num2 > num3)
+//         //     {
+//         //         result = num2;
+//         //     }
+//         //     else
+//         //     {
+//         //         result = num3;
+//         //     }
+//         //     return result;
+//         // }
+//     }
+// }
+
+// using System;
+
+// namespace YouTubeTutorials
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine("Enter a number: ");
+//             double num1 = Convert.ToDouble(Console.ReadLine());
+
+//             Console.WriteLine("Enter the operator: ");
+//             string op = Console.ReadLine();
+
+//             Console.WriteLine("Enter another operator: ");
+//             double num2 = Convert.ToDouble(Console.ReadLine());
+
+//             if(op == "+")
+//             {
+//                 Console.WriteLine(num1 + num2);
+//             }
+//             else if(op == "-")
+//             {
+//                 Console.WriteLine(num1 - num2);
+//             }
+//             else if(op == "*")
+//             {
+//                 Console.WriteLine(num1 * num2);
+//             }
+//             else if(op == "/")
+//             {
+//                 Console.WriteLine(num1 / num2);
+//             }
+//             else
+//             {
+//                 Console.WriteLine("Invalid operator");
+//             }
+//             Console.ReadLine();
+//         }
+//     }
+// };
+
+
+// Learning Switch statements
+using System;
+
+namespace Youtube
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 0 --> "Sunday
+            // 1 --> "Monday"
+            // 2 --> "Tuesday"
+
+            Console.WriteLine("Enter a number between 0 and 6: ");
+            int dayNum = Convert.ToInt32(Console.ReadLine());
+            string dayName = GetDay(dayNum);
+            Console.WriteLine("The day is: " + dayName);
+            Console.ReadLine();
+        }
+
+        static string GetDay(int dayNum)
+        {
+            string dayName;
+            
+            switch(dayNum)
+            {
+                case 0: 
+                   dayName = "Sunday";
+                   break;
+                case 1:
+                   dayName = "Monday";
+                   break;
+                case 2:
+                   dayName = "Tuesday";
+                   break;
+                case 3:
+                   dayName = "Wednesday";
+                   break;
+                case 4:
+                   dayName = "Thursday";
+                   break;
+                case 5:
+                   dayName = "Friday";
+                   break;
+                case 6:
+                   dayName = "Saturday";
+                   break;
+                default:
+                  dayName = "Invalid day number";
+                  break;
+            }
+            return dayName;
+        }
+    }
+}
