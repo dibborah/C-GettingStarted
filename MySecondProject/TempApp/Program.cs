@@ -457,3 +457,38 @@
 //         }
 //     }
 // }
+
+// Exception handling
+
+using System;
+
+namespace ExceptionHandling
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine("Enter a number: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter another number: ");
+                int num2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num1 / num2);
+            // } catch(Exception e)
+
+            } catch(DivideByZeroException e)
+            {
+                Console.WriteLine("Error message is: " + e.Message);
+            } catch(FormatException e)
+            {
+                Console.WriteLine("Error message is: " + e.Message);
+            } finally
+            {
+                Console.WriteLine("The block of code in finally is always executed not matter what");
+            }
+        }
+    }
+}
