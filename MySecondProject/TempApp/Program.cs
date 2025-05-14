@@ -318,27 +318,86 @@
 
 // Learning while loops
 
-using System;
+// using System;
 
-namespace YoutubeTutorials
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int index = 7;
-            // while(index <= 6)
-            // {
-            //     Console.WriteLine(index);
-            //     index++;
-            // }
-            do
-            {
-                Console.WriteLine(index);
-                index++;
-            } while(index <= 6);
+// namespace YoutubeTutorials
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             int index = 7;
+//             // while(index <= 6)
+//             // {
+//             //     Console.WriteLine(index);
+//             //     index++;
+//             // }
+//             do
+//             {
+//                 Console.WriteLine(index);
+//                 index++;
+//             } while(index <= 6);
 
-            Console.ReadLine();
-        }
-    }
-}
+//             Console.ReadLine();
+//         }
+//     }
+// }
+
+
+// Build a guessing game
+
+// using System;
+
+// namespace YoutubeTutorials
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             string secretWord = "giraffe";
+//             string guess = "";
+//             bool outOfGuesses = false;
+//             int guessCount = 0;
+//             int guessLimit = 3;
+//             while(guess != secretWord && !outOfGuesses)
+//             {
+//                 if(guessCount < guessLimit)
+//                 {
+//                     Console.Write("Enter your guess: ");
+//                     guess = Console.ReadLine();
+//                     guessCount++;
+//                 } else {
+//                     outOfGuesses = true;
+//                 }
+//             }
+//             if(outOfGuesses)
+//             {
+//                 Console.WriteLine("You lose!");
+//             }
+//             else
+//             {
+//                 Console.WriteLine("You guessed it!");
+//             }
+//             Console.ReadLine();
+//         }
+//     }
+// }
+
+// Using for loops
+
+// using System;
+
+// namespace YoutubeTutorials
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             int[] luckyNumber = {4, 5, 3, 7, 2};
+//             for(int i = 0; i < luckyNumber.Length; i++) {
+//                 Console.WriteLine(luckyNumber[i]);
+//             }
+//             Console.ReadLine();
+//         }
+//     }
+// }
