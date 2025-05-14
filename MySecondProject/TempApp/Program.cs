@@ -427,3 +427,33 @@
 //         }
 //     }
 // }
+
+// Learning 2D arrays
+using System;
+
+namespace TwoDArrays
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int [,] numberGrid = {
+                {1,2,3},
+                {4,5,6},
+                {7,8,9},
+                {10,11,12},
+            };
+
+            int [,] myArray = new int[2,3];// Two arrays inside with 3 elements each
+
+            myArray[0,0] = 1;
+            myArray[0,1] = 2;
+            myArray[0,2] = 3;
+            Console.WriteLine(myArray[0,0]);
+            Console.WriteLine(myArray[0,1]);
+            Console.WriteLine(myArray[0,2]);
+            // Console.WriteLine(myArray[0,3]);
+            Console.ReadLine();
+        }
+    }
+}
