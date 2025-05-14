@@ -460,35 +460,68 @@
 
 // Exception handling
 
+// using System;
+
+// namespace ExceptionHandling
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             try
+//             {
+//                 Console.WriteLine("Enter a number: ");
+//                 int num1 = Convert.ToInt32(Console.ReadLine());
+
+//                 Console.WriteLine("Enter another number: ");
+//                 int num2 = Convert.ToInt32(Console.ReadLine());
+
+//                 Console.WriteLine(num1 / num2);
+//             // } catch(Exception e)
+
+//             } catch(DivideByZeroException e)
+//             {
+//                 Console.WriteLine("Error message is: " + e.Message);
+//             } catch(FormatException e)
+//             {
+//                 Console.WriteLine("Error message is: " + e.Message);
+//             } finally
+//             {
+//                 Console.WriteLine("The block of code in finally is always executed not matter what");
+//             }
+//         }
+//     }
+// }
+
+
+// Classes and Objects
+
 using System;
 
-namespace ExceptionHandling
+namespace ClassesNObjects
 {
     class Program
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Console.WriteLine("Enter a number: ");
-                int num1 = Convert.ToInt32(Console.ReadLine());
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
 
-                Console.WriteLine("Enter another number: ");
-                int num2 = Convert.ToInt32(Console.ReadLine());
+            Book book2 = new Book();
+            book2.title = "Rings";
+            book2.author = "King Bowking";
+            book2.pages = 300;
 
-                Console.WriteLine(num1 / num2);
-            // } catch(Exception e)
+            // Console.WriteLine(book1.title);
+            // Console.WriteLine(book1.author);
+            // Console.WriteLine(book1.pages);
 
-            } catch(DivideByZeroException e)
-            {
-                Console.WriteLine("Error message is: " + e.Message);
-            } catch(FormatException e)
-            {
-                Console.WriteLine("Error message is: " + e.Message);
-            } finally
-            {
-                Console.WriteLine("The block of code in finally is always executed not matter what");
-            }
+            Console.WriteLine(book2.title);
+            Console.WriteLine(book2.author);
+            Console.WriteLine(book2.pages);
+            Console.ReadLine();
         }
     }
 }
