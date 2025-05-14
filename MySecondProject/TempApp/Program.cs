@@ -401,3 +401,28 @@
 //         }
 //     }
 // }
+
+using System;
+
+namespace YoutubeTutorials
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(GetPower(3, 2));
+            Console.ReadLine();
+        }
+
+        static int GetPower(int baseNum, int PowerNum)
+        {
+            int result = 1;
+            for(int i = 0; i < PowerNum; i++)
+            {
+                result *= baseNum;
+            }
+
+            return result;
+        }
+    }
+}
