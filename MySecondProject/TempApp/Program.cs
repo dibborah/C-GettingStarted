@@ -495,33 +495,41 @@
 
 
 // Classes and Objects
+// And constructors
 
-using System;
+// using System;
 
-namespace ClassesNObjects
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Book book1 = new Book();
-            book1.title = "Harry Potter";
-            book1.author = "JK Rowling";
-            book1.pages = 400;
+// namespace ClassesNObjects
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+//             // book1.title = "Harry Potter";
+//             // book1.author = "JK Rowling";
+//             // book1.pages = 400;
 
-            Book book2 = new Book();
-            book2.title = "Rings";
-            book2.author = "King Bowking";
-            book2.pages = 300;
+//             book1.title = "lolly potter";
+//             Console.WriteLine(book1.title);
+//             Console.WriteLine(book1.author);
+//             Console.WriteLine(book1.pages);
 
-            // Console.WriteLine(book1.title);
-            // Console.WriteLine(book1.author);
-            // Console.WriteLine(book1.pages);
+//             Book book2 = new Book("Rings", "King Bowking", 300);
+//             book2.title = "Rings";
+//             book2.author = "King Bowking";
+//             book2.pages = 300;
 
-            Console.WriteLine(book2.title);
-            Console.WriteLine(book2.author);
-            Console.WriteLine(book2.pages);
-            Console.ReadLine();
-        }
-    }
-}
+//             Book book3 = new Book();
+//             // Console.WriteLine(book1.title);
+//             // Console.WriteLine(book1.author);
+//             // Console.WriteLine(book1.pages);
+
+//             // Console.WriteLine(book2.title);
+//             // Console.WriteLine(book2.author);
+//             // Console.WriteLine(book2.pages);
+
+//             Console.ReadLine();
+//         }
+//     }
+// }
