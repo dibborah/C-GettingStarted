@@ -614,3 +614,33 @@
 //         }
 //     }
 // }
+
+// Inheritance Tutorials
+
+// inheriting(using :)
+// extance some more method in the subclass(extending)
+// overwritting the method(using virtual and override) 
+
+// using System;
+
+// namespace Inheritance
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             // super class
+//             Chef chef = new Chef();
+//             // sub class
+//             ItalianChef italianChef = new ItalianChef();
+
+//             chef.MakeSpecialDish();
+//             // chef.MakeChicken();
+//             // italianChef.MakeChicken();
+//             // italianChef.MakePasta();
+//             italianChef.MakeSpecialDish();
+
+//             Console.ReadLine();
+//         }
+//     }
+// }
