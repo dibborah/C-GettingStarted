@@ -597,3 +597,20 @@
 //         }
 //     }
 // }
+
+// Static Methods and Static class Tutorial
+// using System;
+
+// namespace StaticMethods
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             // Cannot create instance of a static class
+//             // UsefulTools tools = new UsefulTools();
+//             UsefulTools.SayHi("Rakesh");
+//             Console.ReadLine();
+//         }
+//     }
+// }
