@@ -575,3 +575,25 @@
 //         }
 //     }
 // }
+
+// Static Attributes In Classes
+// using System;
+
+// Normal attributes are attributes about the object
+// Static attributes are attributes about the class
+// namespace StaticClassAttributes
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Song holiday = new Song("Holiday", "Green day", 200);
+//             // static attributes called in Class Song
+//             Console.WriteLine(Song.songCount);
+//             Song kashmir = new Song("Kashmir", "Led Zeplin", 150);
+
+//             Console.WriteLine(kashmir.getSongCount());
+//             Console.ReadLine();
+//         }
+//     }
+// }
