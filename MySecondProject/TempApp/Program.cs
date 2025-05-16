@@ -553,3 +553,25 @@
 //         }
 //     }
 // }
+
+
+// Getter and Setters
+// using System;
+
+// namespace GettersNSetters
+// {
+//     class Program{
+//         static void Main(string[] args)
+//         {
+//             Movie avengers = new Movie("The avengers", "Joe brother", "Dog");
+//             Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+//             // G, PG, PG-13, R, NR   
+//             // avengers.rating = "Dog";      
+//             // Console.WriteLine(avengers.Rating);
+
+//             shrek.Rating = "R";
+//             Console.WriteLine(shrek.Rating);
+//             Console.ReadLine();
+//         }
+//     }
+// }
